@@ -14,7 +14,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
 
-db.sync({ force: false }).then(() => {
+db.sync({ force: true }).then(() => {
   console.log("DB conectada");
   app.listen(PORT, () => console.log(`Server escuchando en el puerto ${PORT}`));
 });
