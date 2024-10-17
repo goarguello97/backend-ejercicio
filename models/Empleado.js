@@ -14,7 +14,7 @@ Empleado.init(
     edad: { type: DataTypes.INTEGER, allowNull: false },
     area: { type: DataTypes.STRING, allowNull: false },
     antiguedad: { type: DataTypes.INTEGER, allowNull: false },
-    telefono: { type: DataTypes.INTEGER, allowNull: false },
+    telefono: { type: DataTypes.STRING, allowNull: false },
   },
   { sequelize, modelName: "empleado" }
 );
