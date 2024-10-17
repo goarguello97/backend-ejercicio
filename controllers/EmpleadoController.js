@@ -1,4 +1,4 @@
-import EmpleadoService from "../service/EmpleadoService";
+import EmpleadoService from "../service/EmpleadoService.js";
 
 export default class EmpleadoController {
   static async getEmpleados(req, res) {
