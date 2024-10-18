@@ -26,6 +26,7 @@ DB_USER=tu_usuario_de_postgres
 DB_PASSWORD=tu_contraseña_de_postgres
 DB_HOST=localhost
 DB_NAME=nombre_de_tu_base_de_datos
+ORIGIN=url_frontend
 ```
 
 ## Uso

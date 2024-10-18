@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Permitir solo tu frontend
+    origin: process.env.ORIGIN, // Permitir solo tu frontend
     credentials: true, // Permitir credenciales
   })
 );
