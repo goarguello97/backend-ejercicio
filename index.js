@@ -21,7 +21,7 @@ app.use("/api", router);
 const PORT = process.env.PORT || 3001;
 
 // Si ponemos true cada vez que reiniciemos el server, limpiara la base de datos.
-db.sync({ force: false }).then(() => {
+db.sync({ force: true }).then(() => {
   console.log("DB conectada");
   app.listen(PORT, () => console.log(`Server escuchando en el puerto ${PORT}`));
 });
